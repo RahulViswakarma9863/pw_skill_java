@@ -1,0 +1,61 @@
+Q1 - Take 2 integer values in two variables x and y and print their product.
+Sample Input : x=2, y=4 (Both integers)
+Sample Output : 8
+
+public class assignment_1 {
+    public static void main(String[] args) {
+        int x=2,y=4;
+        System.out.println((x*y));
+    }    
+}
+Q2 - Print the ASCII value of character ‘U’.
+Sample Input : already mentioned as ‘U’
+Sample Output : 85
+
+public class assignment_1 {
+    public static void main(String[] args) {
+        char ch='U';
+        if (ch=='U') {
+            System.out.println("85");
+        }
+    }    
+}
+Q3 - Write a Java program to take the length and breadth of a rectangle and print its area.
+Sample Input : 7, 4
+Sample Output : 28
+public class assignment_1 {
+    public static void main(String[] args) {
+        int length=7,breadth=4,rectangle;
+        rectangle=(length*breadth);
+        System.out.println(rectangle);
+    }
+}
+
+Q4 - Write a Java program to calculate the cube of a number. 
+Sample Input : 4
+Sample Output : 64
+The sizeof(bool) : 1 bytes
+public class assignment_1 {
+    public static void main(String[] args) {
+       int a=4,cube;
+       cube=a*a*a;
+       System.out.println(cube);
+
+    }
+}
+Q5 - Write a Java program to swap two numbers with the help of a third variable.
+Sample Input : 2,3
+Sample Output : 3,2
+public class assignment_1 {
+    public static void main(String[] args) {
+       int a=2,b=3,c;
+       System.out.println(a+","+b);
+       c=a;
+       a=b;
+       b=c;
+       System.out.println(a+","+b);
+
+    }
+}
+
+
